@@ -13,10 +13,10 @@ This is a RESTful API built with Node.js, Express, and MongoDB for managing a bo
 
 1. Clone the repository:
 
-   HTTPS:
+   HTTPS: 
    git clone https://github.com/Aizonati/books-directory.git
    
-   SSH:
+   SSH: 
    git clone git@github.com:Aizonati/books-directory.git
 
 2. Install dependencies:
