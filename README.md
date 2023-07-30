@@ -154,7 +154,7 @@ Adds a new book to the directory. Requires authentication.
 *Example request:*
 
 
-POST /books HTTP/1.1
+POST /v1/books HTTP/1.1
 
 
 Content-Type: application/json
