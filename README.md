@@ -27,9 +27,9 @@ This is a RESTful API built with Node.js, Express, and MongoDB for managing a bo
 3. Create a `.env` file in the root directory with the following variables and add your own mongodb url 
    and access token values:
 
-   MONGO_URL= mongodb://localhost/book-directory
+   MONGO_URL = your mongo url
 
-   ACCESS_TOKEN = mysecretkey
+   ACCESS_TOKEN = your secret key
    
 
 4. Start the server:
