@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 dotenv.config();
 
-// Signup API.trim()
+// Signup API
 const createUser = (request, response, next) => {
     return new Promise(async (resolve, reject) => {
         try {
