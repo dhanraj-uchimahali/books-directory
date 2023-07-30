@@ -47,6 +47,7 @@ const fetchAll = (request, response, next) => {
   });
 };
 
+// Fetching book on the basis of id
 const fetchOne = (request, response, next) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -70,6 +71,7 @@ const fetchOne = (request, response, next) => {
   });
 };
 
+// Updating book on the basis of id
 const update = (request, response, next) => {
   return new Promise(async (resolve, reject) => {
     try {
@@ -102,6 +104,8 @@ const update = (request, response, next) => {
     }
   });
 };
+
+// Deleting book on the basis of id
 const deleteBookData = (request, response, next) => {
   return new Promise(async (resolve, reject) => {
     try {
