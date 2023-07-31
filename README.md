@@ -175,7 +175,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impva
 *Example response:*
 
 
-HTTP/1.1 201 Created
+HTTP/1.1 200 Created
 
 Content-Type: application/json
 ```
